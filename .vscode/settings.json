@@ -1,0 +1,10 @@
+{
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+
+    },
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.cursorStyle": "line",
+    "editor.tabSize": 20
+}

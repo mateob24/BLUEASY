@@ -1,0 +1,1214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+}
+
+header{
+  height: 633px;
+  background: url(../image/Fondo.png) no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+nav{
+  height: 122px;
+  display: grid;
+  background-color: #3a454ce1;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+#titulo{
+  grid-column: 2/3;
+  font-size: 23px;
+  justify-self: start;
+}
+
+#letraAzul{
+  color: #4bcaff;
+}
+
+.enlaces{
+  width: 60%;
+  grid-column: 4/6;
+  text-align: center;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+}
+
+.enlaces a{
+  height: 100%;
+  width: 80%;
+  font-size: 11px;
+  padding: 5px 14px;
+  border: solid 2px transparent;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.link:hover{
+  color: #4bcaff;
+  border:solid #4bcaff 2px;
+}
+
+#text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 500px;
+}
+
+.texto{
+  padding: 4px 10px;
+  font-size: 33px;
+  font-weight: 100;
+  background-color: #3f4a51e4;
+  text-align: center;
+}
+
+/* FIN HEADER */
+
+.blue{
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+  color: white;
+  background-color: #4bcaff ;
+}
+
+.items{
+  width: 240px;
+  margin-top: 80px;
+  gap: 11px;
+  display: grid;
+}
+
+.items img{
+  height: 38px;
+}
+
+.items h2{
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Verdana,Tahoma, sans-serif;
+}
+
+.items p{
+  font-size: 9px;
+  line-height: 14px;
+  font-family: Verdana,Tahoma, sans-serif;
+}
+
+.cof{
+  grid-column: 2/3;
+}
+ 
+/* FIN SECCION BLUE */
+
+.portfolio{
+  height: 700px;
+  color: #515f67;
+}
+
+.menu{
+  height: 140px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+#port{
+  grid-column: 2/3;
+  font-size: 23px;
+  font-weight: 100;
+  justify-self: start;
+  position: relative;
+}
+
+#port::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px #6b767d;
+  width: 30%;
+}
+
+.enlaces2{
+  width: 60%;
+  grid-column: 4/6;
+  text-align: center;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+}
+
+.enlaces2 a{
+  height: 100%;
+  width: 80%;
+  font-size: 11px;
+  padding: 4px 14px;
+  border: solid 2px transparent;
+  color: #6b767d;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.link2:hover{
+  color: #4bcaff;
+  border:solid #4bcaff 2px;
+}
+
+.galeria{
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.ph{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  filter: opacity(80%);
+}
+
+.one{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.two{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.three{
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.four{
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+.five{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.six{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.seven{
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.eigth{
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+/* FIN SECCION PORTFOLIO */
+
+.gris{
+  height: 380px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #515f67;
+  color: white;
+  align-items: center;
+}
+
+.default{
+  grid-column: 2/4;
+  gap: 18px;
+  width: 370px;
+  display: grid;
+}
+
+#def{
+  font-size: 24px;
+  font-weight: 100;
+  position: relative;
+}
+
+#def::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px white;
+  width: 10%;
+}
+
+.default p{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.imgVideo{
+  grid-column: 4/6;
+  justify-self: end;
+}
+
+#video{
+  height: 262px;
+}
+
+#visit{
+  height: 38px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: bolder;
+  border: solid 2px #343c42;
+  color: #343c42;
+  background-color: #515f67;
+  cursor: pointer;
+}
+
+/* FIN SECCION GRIS */
+
+.twitter{
+  height: 250px;
+  gap: 20px;
+  background-color: #4bcaff;
+  color: white;
+  display: grid;
+}
+
+.tituloTw{
+  height: 90px;
+  display: grid;
+  align-items: end;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#tw{
+  grid-column: 2/3;
+  font-weight: 100;
+  position: relative;
+}
+
+#tw::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px white;
+  width: 15%;
+}
+
+#bird{
+  grid-column: 5/6;
+  justify-self: end;
+}
+
+.textoTw{
+  height: 130px;
+  font-size: 22px;
+  font-weight: 100;
+  justify-content: end;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);  
+}
+
+#twitt{
+    grid-column: 2/6;
+    line-height: 40px;
+}
+
+#cheese{
+  font-weight: bolder;
+}
+
+/* FIN SECCION TWITTER */
+
+.john{
+  height: 394px;
+  background: url(../image/bg_whoIs.png) no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.john p{
+  height: 74px;
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.whoIs{
+  width: 88%;
+  grid-column: 2/4;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+}
+
+#who{
+  margin-bottom: 20px;
+  font-weight: 100;
+  position: relative;
+}
+
+#who::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px white;
+  width: 8%;
+}
+
+.pudding{
+  width: 88%;
+  grid-column: 4/6;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+}
+
+#pPud{
+  grid-row: 2/3;
+}
+
+.icons{
+  width: 62%;
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.icons img{
+  height: 52px;
+}
+
+/* FIN SECCION JOHN */
+
+.testimonials{
+  height: 280px;
+  color: #515f67;
+  display: grid;
+}
+
+.testi{
+  height: 90px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: end;
+}
+
+#tituloTesti{
+  grid-column: 2/3;
+  font-weight: 100;
+  position: relative;
+}
+
+#tituloTesti::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px #515f67;
+  width: 15%;
+}
+
+/* #comillas{
+  grid-column: 5/6;
+  font-size: 60px;
+  justify-self: end;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 26px;
+} */
+
+#imgComi{
+  height: 30px;
+  grid-column: 5/6;
+  justify-self: end;
+}
+
+.textoTesti{
+  height: 120px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: start;
+}
+
+.textoTesti p{
+  grid-row: 1/2;
+  grid-column: 2/6;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 38px;
+}
+
+#walter{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-size: 11px;
+  align-self: flex-end;
+  font-weight: bold;
+  color: #4bcaff;
+}
+
+/* FIN SECCION TESTIMONIALS */
+
+.contact{
+  height: 640px;
+  background: url(../image/bg_contact.png) no-repeat;
+  background-size: 100%;
+  color: white;
+  overflow: hidden;
+  object-fit: cover;
+  align-items: center;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}
+
+.titleCont{
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#cont{
+  grid-column: 2/3;
+  font-weight: 100;
+  position: relative;
+}
+
+#cont::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: solid 2px white;
+  width: 15%;
+}
+
+.info{
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.infoUser{
+  grid-column: 2/6;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.dates{
+  grid-column: 1/2;
+  display: grid;
+  gap: 12px;
+}
+
+#name{
+  height: 90px;
+}
+
+#textName{
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+#fullName{
+  height: 48px;
+  width: 380px;
+  margin-top: 4px;
+  background: transparent;
+  border: solid 2px white;
+}
+
+#email{
+  height: 90px;
+}
+
+#textEmail{
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+#mail{
+  height: 48px;
+  width: 380px;
+  margin-top: 4px;
+  background: transparent;
+  border: solid 2px white;
+}
+
+.textCont{
+  grid-column: 2/3;
+  display: grid;
+  gap: 12px;
+}
+
+.textCont p{
+  height: 90px;
+  font-size: 11px;
+  line-height: 20px;
+  display: grid;
+  align-items: center;
+}
+
+.message{
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+
+#textMsg{
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+#boxMsg{
+  height: 180px;
+  width: 100%;
+  margin-top: 4px;
+  background: transparent;
+  border: solid 2px white;
+  resize: none;
+}
+
+.buttonMsg{
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#msg{
+  grid-column: 2/4;
+  height: 48px;
+  width: 300px;
+  font-size: 11px;
+  font-weight: bolder;
+  background-color: #4bcaff;
+  color: white;
+  border: none;
+}
+
+/* FIN SECCION CONTACT */
+
+footer{
+  height: 120px;
+  background-color: #353f47;
+  color: #4d5a62;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.enlaces3{
+  width: 300px;
+  grid-column: 2/3;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-self: center;
+  text-align: center;
+}
+
+#liServ{
+  position: relative;
+}
+
+#liServ::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 8px;
+  border-right: solid 1px #4d5a62;
+  border-left: solid 1px #4d5a62;
+  height: 50%;
+}
+
+#liHome{
+  position: relative;
+}
+
+#liHome::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 8px;
+  border-right: solid 1px #4d5a62;
+  height: 50%;
+}
+
+#liPort{
+  position: relative;
+}
+
+#liPort::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 8px;
+  border-right: solid 1px #4d5a62;
+  border-left: solid 1px #4d5a62;
+  height: 50%;
+}
+
+#liCont{
+  position: relative;
+}
+
+#liCont::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 8px;
+  border-left: solid 1px #4d5a62;
+  height: 50%;
+}
+
+.enlaces3 a{
+  font-size: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #4d5a62;
+}
+
+footer p{
+  grid-column: 5/6;
+  font-size: 10px;
+  font-weight: bolder;
+  justify-self: end;
+  align-self: center;
+}
+
+/* -----------------------MEDIA QUERIES------------------------- */
+
+@media screen and (max-width: 1200px){
+  header{
+    background-size: 100% 100%;
+  }
+
+  .contact{
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .blue{
+    height: 350px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .items{
+    margin-top: 20px;
+  }
+
+  .cof{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  .ins{
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+
+  .ser{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .fra{
+    grid-column: 4/5;
+    grid-row: 2/3;
+  }
+
+  .portfolio{
+    height: 500px;
+  }
+
+  .enlaces2{
+    width: 360px;
+  }
+
+  .enlaces2 a{
+    font-size: 10px;
+  }
+
+  .gris{
+    grid-template-columns: repeat(8, 1fr)
+  }
+
+  .imgVideo{
+    grid-column: 7/8;
+  }
+
+  .tituloTw{
+    height: 60px;
+  }
+
+  .john{
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .texto{
+    font-size: 30px;
+  }
+
+  .enlaces{
+    width: 100%;
+  }
+
+  .enlaces a{
+    font-size: 10px;
+  }
+
+  .portfolio{
+    height: 420px;
+  }
+
+  .gris{
+    height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .default{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  .imgVideo{
+    grid-row: 2/3 ;
+    grid-column: 2/3;
+  }
+
+  #video{
+    height: 220px;
+  }
+
+  .whoIs {
+    height: 300px;
+  }
+
+  #who{
+    margin-bottom: 0;
+  }
+
+  .whoIs p{
+    height: 120px;
+  }
+
+  .pudding{
+    height: 300px;
+  }
+
+  #pPud{
+    height: 120px;
+  }
+
+  .icons{
+    height: 120px;
+    align-items: center;
+  }
+
+  .testimonials{
+    height: 320px;
+  }
+
+  .textoTesti{
+    height: 160px;
+  }
+
+  .dates{
+    width: 300px;
+  }
+
+  #name{
+    height: 80px;
+  }
+
+  #fullName{
+    width: 280px;
+  }
+
+  #email{
+    height: 80px;
+  }
+
+  #mail{
+    width: 280px;
+  }
+
+  .textCont{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  header{
+    background-size: 140% 100%;
+  }
+
+  nav{
+    height: 122px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #titulo{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    font-size: 23px;
+    justify-self:center;
+  }
+
+  .enlaces{
+    grid-column: 1/6;
+    grid-row: 2/3;
+  }
+
+  .portfolio{
+    height: 800px;
+  }
+
+  .galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .one{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .two{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .three{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .four{
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+  .five{
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .six{
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+
+  .seven{
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  .eigth{
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+
+  .gris{
+    height: 560px;
+  }
+
+  .twitter{
+    height: 280px;
+  }
+
+  .textoTw{
+    height: 180px;
+  }
+
+  .john{
+    background-size: 100% 100%;
+  }
+
+  .whoIs{
+    height: 380px;
+  }
+
+  .whoIs p{
+    height: 150px;
+  }
+
+  .pudding{
+    height: 380px;
+  }
+
+  #pPud{
+    height: 150px;
+  }
+
+  .icons{
+    height: 150px;
+    align-items: center;
+  }
+
+  .testimonials{
+    height: 360px;
+  }
+
+  #tituloTesti{
+    grid-column: 2/4;
+  }
+
+  .textoTesti{
+    height: 200px;
+  }
+
+  .contact{
+    height: 780px;
+  }
+
+  .titleCont{
+    height: 80px;
+    align-items: center;
+  }
+
+  .info{
+    height: 540px;
+  }
+
+  .dates{
+    width: 100%;
+  }
+
+  #name{
+    height: 80px;
+  }
+
+  #fullName{
+    width: 100%;
+  }
+
+  #email{
+    height: 80px;
+  }
+
+  #mail{
+    width: 100%;
+  }
+
+  .message{
+    height: 100px;
+  }
+
+  .infoUser{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textCont{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+  }
+
+  #msg{
+    grid-column: 2/5;
+  }
+
+  footer{
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .portfolio{
+    height: 680px;
+  }
+
+  .menu{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items p{
+    width: 180px;
+    text-align: center;
+  }
+
+  #port{
+    grid-row: 1/2;
+    grid-column: 1/6;
+    justify-self: center;
+  }
+
+  .enlaces2{
+    grid-row: 2/3;
+    grid-column: 1/6;
+  }
+
+  .john{
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background-size: 160% 100%;
+    background-position: center;
+  }
+
+  .whoIs{
+    width: 320px;
+    height: 280px;
+  }
+
+  .whoIs p{
+    height: 60px;
+    width: 320px;
+    justify-self: center;
+  }
+
+  .pudding{
+    height: 220px;
+    width: 320px;
+  }
+
+  #pPud{
+    grid-row: 1/3;
+    height: 100px;
+  }
+
+  .icons{
+    height: 80px;
+    width: 100%;
+  }
+
+  .icons a{
+    justify-self: center;
+  }
+
+  .testimonials{
+    height: 370px;
+  }
+
+  .testi{
+    height: 70px;
+  }
+
+  .textoTesti{
+    height: 250px;
+  }
+
+  .contact{
+    height: 780px;
+  }
+
+  .titleCont{
+    height: 80px;
+    align-items: center;
+  }
+
+  .info{
+    height: 580px;
+  }
+
+  .dates{
+    width: 100%;
+  }
+
+  #name{
+    height: 80px;
+  }
+
+  #fullName{
+    width: 100%;
+  }
+
+  #email{
+    height: 80px;
+  }
+
+  #mail{
+    width: 100%;
+  }
+
+  .message{
+    height: 100px;
+  }
+
+  .infoUser{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textCont{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #juju{
+    height: 100px;
+  }
+
+  #linda{
+    width: 100%;
+  }
+
+  #msg{
+    width: 100%;
+    grid-column: 2/6;
+  }
+
+  footer{
+    height: 100px;
+  }
+
+}
