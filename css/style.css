@@ -1122,7 +1122,11 @@ footer p{
   }
 
   .twitter{
-    height: 296px;
+    height: 300px;
+  }
+
+  .textoTw{
+    height: 240px;
   }
 
   #tw::after{
@@ -1176,7 +1180,7 @@ footer p{
   }
 
   .textoTesti{
-    height: 250px;
+    height: 280px;
   }
 
   #walter{
