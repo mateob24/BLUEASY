@@ -277,6 +277,7 @@ nav{
 #visit{
   height: 38px;
   width: 120px;
+  text-align: center;
   font-size: 12px;
   font-weight: bolder;
   border: solid 2px #343c42;
@@ -609,6 +610,7 @@ nav{
   height: 48px;
   width: 300px;
   font-size: 11px;
+  text-align: center;
   font-weight: bolder;
   background-color: #4bcaff;
   color: white;
@@ -1092,12 +1094,29 @@ footer p{
     grid-row: 2/3;
     grid-column: 1/6;
   }
+  
+  #def{
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .gris{
+    height: 500px;
+  }
+
+  .imgVideo{
+    justify-self: center;
+  }
+
+  #video{
+    height: 190px;
+  }
 
   .john{
     height: 520px;
     display: flex;
     flex-direction: column;
-    background-size: 160% 100%;
+    background-size: 180% 100%;
     background-position: center;
   }
 
@@ -1145,6 +1164,8 @@ footer p{
 
   .contact{
     height: 780px;
+    background-size: 180% 100%;
+    background-position: center;
   }
 
   .titleCont{
